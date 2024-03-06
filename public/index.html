@@ -6,9 +6,16 @@
     <title>NASA API Explorer</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="nasa-background">
     <div class="container">
         <h1>NASA API Explorer</h1>
+        <div class="language-selection">
+            <label for="language">Select Language:</label>
+            <select id="language">
+                <option value="en">English</option>
+                <option value="pt">Portuguese</option>
+            </select>
+        </div>
         <div class="options">
             <button id="apod-btn">Astronomy Picture of the Day</button>
             <button id="image-library-btn">Image and Video Library</button>
@@ -17,7 +24,14 @@
             <button id="exoplanet-btn">Exoplanet Archive</button>
         </div>
         <div id="result"></div>
+        <div id="media-container">
+            <img id="image" src="" alt="NASA Image">
+            <video id="video" controls>
+                <source src="" type="video/mp4">
+            </video>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
+

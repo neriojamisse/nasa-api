@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: #fff;
 }
 
 .container {
@@ -12,6 +13,11 @@ body {
 
 h1 {
     text-align: center;
+}
+
+.language-selection {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .options {
@@ -27,4 +33,21 @@ button {
 #result {
     text-align: center;
     margin-top: 20px;
+}
+
+#media-container {
+    display: none;
+    margin-top: 20px;
+}
+
+#image,
+#video {
+    width: 100%;
+    height: auto;
+}
+
+.nasa-background {
+    background-image: url('images/nasa.png');
+    background-size: cover;
+    background-position: center;
 }
