@@ -31,8 +31,8 @@ Este é um projeto simples que utiliza a API da NASA para fornecer informações
 ## Autor
 
 Este projeto esta sendo desenvolvido por:
-Jorge Marcelino
-Nerio Joao Jamisse
+Jorge Marcelino,
+Nerio Joao Jamisse,
 Victorino Ricardo
 
 ## Licença
